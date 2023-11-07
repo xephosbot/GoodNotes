@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">300</item>
+        <item name="android:textSize">98sp</item>
+    </style>
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+        <item name="android:textSize">69sp</item>
+    </style>
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+        <item name="android:textSize">49sp</item>
+    </style>
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">500</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">500</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">600</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">500</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.GoodNotesTypographyStyles.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight" tools:ignore="NewApi">400</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+</resources>

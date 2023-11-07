@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GoodNotes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorSecondary">?attr/colorOnSurface</item>
+
+        <item name="android:textColorPrimary">?attr/colorOnSurface</item>
+        <item name="android:textColorSecondary">?attr/colorOnSurface</item>
+        <item name="android:windowBackground">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <style name="Theme.GoodNotes" parent="Base.Theme.GoodNotes">
+        <item name="textAppearanceHeadline1">@style/TextAppearance.GoodNotesTypographyStyles.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.GoodNotesTypographyStyles.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.GoodNotesTypographyStyles.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.GoodNotesTypographyStyles.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.GoodNotesTypographyStyles.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.GoodNotesTypographyStyles.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.GoodNotesTypographyStyles.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.GoodNotesTypographyStyles.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.GoodNotesTypographyStyles.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.GoodNotesTypographyStyles.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.GoodNotesTypographyStyles.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.GoodNotesTypographyStyles.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.GoodNotesTypographyStyles.Overline</item>
+
+        <item name="appBarLayoutStyle">@style/Widget.MaterialComponents.AppBarLayout.Surface</item>
+        <item name="collapsingToolbarLayoutStyle">@style/Widget.GoodNotes.CollapsingToolbar</item>
+        <item name="floatingActionButtonStyle">@style/Widget.GoodNotes.FloatingActionButton.Surface</item>
+        <item name="chipStyle">@style/Widget.GoodNotes.Chip.Choice</item>
+
+    </style>
+
+    <style name="Widget.GoodNotes.CollapsingToolbar" parent="Widget.MaterialComponents.CollapsingToolbar">
+        <item name="forceApplySystemWindowInsetTop">true</item>
+        <item name="extraMultilineHeightEnabled">true</item>
+        <item name="statusBarScrim">@android:color/transparent</item>
+        <item name="expandedTitleMargin">16dp</item>
+        <item name="expandedTitleMarginBottom">24dp</item>
+        <item name="elevationOverlayEnabled">false</item>
+        <item name="expandedTitleTextAppearance">?attr/textAppearanceHeadline2</item>
+        <item name="collapsedTitleTextAppearance">?attr/textAppearanceHeadline5</item>
+    </style>
+
+    <style name="Widget.GoodNotes.FloatingActionButton.Surface" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">?attr/colorSurface</item>
+        <item name="tint">?attr/colorOnSurface</item>
+        <item name="rippleColor">@color/fab_ripple_color</item>
+    </style>
+
+    <style name="Widget.GoodNotes.Button.IconOnly" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="minTouchTargetSize">48dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:maxWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:maxHeight">48dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="rippleColor">@color/btn_ripple_color</item>
+        <item name="iconTint">@color/btn_icon_color</item>
+        <item name="backgroundTint">@color/btn_icon_bg_color</item>
+        <item name="strokeColor">@android:color/transparent</item>
+        <item name="iconPadding">0dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconSize">24dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.GoodNotes.Circle</item>
+    </style>
+
+    <style name="Widget.GoodNotes.Chip.Choice" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="chipMinHeight">40dp</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+        <item name="chipStrokeColor">@color/chip_text_color</item>
+        <item name="chipBackgroundColor">@android:color/transparent</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="rippleColor">@color/chip_ripple_color</item>
+    </style>
+
+    <style name="Widget.GoodNotes.TextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+
+    <style name="Widget.GoodNotes.CardView.Note" parent="Widget.MaterialComponents.CardView">
+        <item name="android:theme">@style/ThemeOverlay.GoodNotes.Dark</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.GoodNotes.LargeComponent</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="ThemeOverlay.GoodNotes.Dark" parent="ThemeOverlay.MaterialComponents">
+        <item name="colorOnSurface">@color/black</item>
+        <item name="android:textColorHint">@color/text_hint_color</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+
+</resources>
